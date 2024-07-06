@@ -1,0 +1,40 @@
+.defaultLayout-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: scroll;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--border-color);
+  padding: 0px 40px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  color: var(--logo-color);
+  font-style: italic;
+}
+
+.navbar-brand:hover {
+  color: var(--logo-color);
+}
+
+.navbar-button {
+  background-color: var(--background-color);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar-button:hover {
+  background-color: var(--third-color);
+}
